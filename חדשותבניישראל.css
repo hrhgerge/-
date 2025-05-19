@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://www.pastel.co.il/wp-content/uploads/2021/04/9f1d6bc8bddece8b03d685f22a8ab2ec.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    backdrop-filter: blur(2px);
+    font-family: "Arial", sans-serif;
+    direction: rtl;
+}
+
+/* "h1" שהיא תמונה */
+#img1 {
+    width: 60vw; /* גודל יחסי למסך */
+    max-width: 700px;
+    height: auto;
+    display: block;
+    margin: 60px auto 40px auto;
+    border-radius: 24px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    animation: fadeIn 2s ease-in-out;
+}
+
+#img1:hover {
+    transform: scale(1.04);
+}
+
+/* אנימציה של הופעה רכה */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* טקסט */
+#p1 {
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    color: #ffffff; /* לבן */
+    font-size: 38px;
+    line-height: 1.8;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 90%;
+    background-color: rgba(0, 0, 0, 0.5); /* רקע כהה שקוף */
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.9); /* הצללה עמוקה */
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+p {
+    background-color: rgba(255, 255, 255, 0.5); /* רקע כהה שקוף */
+
+
+
+}
